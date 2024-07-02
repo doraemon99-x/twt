@@ -4,7 +4,7 @@
     "description": "Bot Telegram sederhana dengan Node.js",
     "main": "bot.js",
     "scripts": {
-      "start": "node twtv.js"
+      "start": "node twt.js"
     },
     "author": "Nama Anda",
     "license": "MIT",
