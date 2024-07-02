@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios'); // Import axios
 
 // Token bot Telegram Anda
-const token = '6617017697:AAFgSCjYvk5a6oI8hCyS6p63O7wXwgGlHTg';
+const token = '6617017697:AAH7v5lFv1Fes2vmdtCvpsHVfrAsX99ETnI';
 
 // Inisialisasi bot
 const bot = new TelegramBot(token, { polling: true });
