@@ -13,7 +13,7 @@ bot.onText(/\/start/, (msg) => {
 });
 
 // Handler untuk perintah /twt
-bot.onText(/\/twt (.+)/, async (msg, match) => {
+bot.onText(/\/twtt (.+)/, async (msg, match) => {
   const chatId = msg.chat.id;
   const url = match[1]; // Mendapatkan URL Twitter dari pesan
   
